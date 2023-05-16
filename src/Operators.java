@@ -20,5 +20,27 @@ public class Operators {
         int f=6;
         int r =72/f;
         System.out.println(r);
+        System.out.println("Enter Modulus Value:");
+        int md= 78;
+        int md1 =52 % md;
+        System.out.println(md1);
+//        (+= operator)
+        System.out.println("Implementation of Plus Equal Operators");
+        int pe = 10;
+        pe += 10;
+        System.out.println(pe);
+//        (*=multiply equals to)
+        System.out.println("Implementation of Multiply Equal Operators");
+        int mp =12;
+        mp *= 6;
+        System.out.println(mp);
+//        (/=)
+        System.out.println("Implementation of division Equal Operators");
+        int dv=12;
+        dv /= 6;
+        System.out.println(dv);
+
+
     }
+
 }
