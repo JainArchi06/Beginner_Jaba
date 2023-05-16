@@ -1,6 +1,6 @@
 public class Operators {
     public static void main(String[] args) {
-//        (+ Operators)
+//        (+ Arithmetic Operators)
         System.out.println("Enter the  add Value");
         int a =4;
         int b =9 +a;
@@ -20,5 +20,32 @@ public class Operators {
         int f=6;
         int r =72/f;
         System.out.println(r);
+        System.out.println("Enter Modulus Value:");
+        int md= 78;
+        int md1 =52 % md;
+        System.out.println(md1);
+//        (+=  Assignment operator)
+        System.out.println("Implementation of Plus Equal Operators");
+        int pe = 10;
+        pe += 10;
+        System.out.println(pe);
+//        (*=multiply equals to)
+        System.out.println("Implementation of Multiply Equal Operators");
+        int mp =12;
+        mp *= 6;
+        System.out.println(mp);
+//        (/=)
+        System.out.println("Implementation of division Equal Operators");
+        int dv=12;
+        dv /= 6;
+        System.out.println(dv);
+//        (comparison operator)
+        System.out.println(64<3);
+//        (Logical operators)
+        System.out.println("Logical Operators");
+        System.out.println(64>7&&69<96);
+        System.out.println(85>96||85>63);
+
     }
+
 }
