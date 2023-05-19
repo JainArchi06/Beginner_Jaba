@@ -10,6 +10,7 @@ public class ResultingDataType {
 
         //increment and decrement
         int i =87;
+        int x = ++i;        ;
         System.out.println(i++);
         System.out.println(i);
         System.out.println(++i);
